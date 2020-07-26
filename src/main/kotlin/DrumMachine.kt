@@ -1,7 +1,7 @@
 import java.io.File
 import javax.sound.sampled.AudioSystem
 import kotlinx.coroutines.*
-
+//многопоточность
 fun playBeats(beats: String, file: String){
     val parts = beats.split("x")
     var count = 0
